@@ -1,0 +1,80 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color:  #0071bc;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color:  #0071bc;
+  padding: 1em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav  li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  display: inline-block;
+}
+
+h1, h2 {
+  color: #0071bc;
+  margin: 20px 0;
+}
+
+p {
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+
+
+.car-model h3 {
+  color: #0071bc;
+  margin: 10px 0;
+}
+
+.car-model p {
+  color: #666;
+}
+
+footer {
+  background-color:  #0071bc;
+  color: #fff;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
